@@ -12,7 +12,6 @@ To use the code, you must install all of these packages:
 - Mac OS (Version 10.13 or later)
 - Python version 2 or 3 (stable on version 2.7 and 3.6)
 - Numpy >= 1.8
-- Scipy >= 0.10
 
 Learning Algorithm
 ------------------
@@ -59,8 +58,7 @@ Measure
 
 Perplexity is a popular measure to see predictiveness and generalization of a topic model.
 
-In order to compute perplexity of the model, the testing data is needed. Each document in testing data is randomly divided into two disjoint part w_obs and w_ho with the ratio 80:20
-They are stored in [test data folder] with corresponding file name is of the form:
+In order to compute perplexity of the model, the testing data is needed. Each document in testing data is randomly divided into two disjoint part w_obs and w_ho with the ratio 70:30. They are stored in [test data folder] with corresponding file name is of the form:
 
 data_test_part_1.txt and data_test_part_2.txt
 
